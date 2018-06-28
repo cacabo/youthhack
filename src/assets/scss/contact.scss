@@ -1,0 +1,63 @@
+/**
+ * Styling the contact modal and form
+ */
+#contactModal {
+  .modal-content {
+    border-radius: 0.2rem;
+    border: 1px solid $border;
+  }
+}
+
+.modal-backdrop {
+  background: $white;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  border-width: 2px;
+  font-size: 16px;
+  font-family: 'Roboto' sans-serif;
+  padding: 0.75rem;
+  border: 2px solid $border;
+
+  &:hover {
+    border: 2px solid $dark-border;
+  }
+
+  &:focus,
+  &:active {
+    border: 2px solid $slate;
+  }
+}
+
+textarea.form-control {
+  margin-bottom: 0;
+}
+
+/**
+ * Only show the link to the contact modal on larger screens
+ * On smaller screens direct users to the contact path
+ */
+@media screen and (min-width: 848px) {
+  #contact-btn {
+    display: inline-block;
+  }
+
+  #contact-link {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 847.9px) {
+  #contact-btn {
+    display: none;
+  }
+
+  #contact-link {
+    display: inline-block;
+  }
+}
+
+.alert {
+  border-width: 2px;
+}

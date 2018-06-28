@@ -1,0 +1,166 @@
+/**
+ * Styling for cards used throughout the application
+ */
+.content {
+  .card {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 0rem 0.1rem 0.4rem $shadow;
+    border: 1px solid $border;
+
+    .timestamp {
+      margin-bottom: 0rem;
+      font-size: 1rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0rem;
+    }
+
+    .subtitle {
+      margin-bottom: 0.5rem !important;
+      font-weight: normal;
+    }
+
+    &.card-post {
+      padding: 0;
+
+      .body {
+        padding: 1rem;
+
+        &.pad-top-0 {
+          padding-top: 0;
+        }
+      }
+
+      .timestamp {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        font-size: 1rem;
+      }
+    }
+
+    &.has-img {
+      padding: 0;
+
+      .card-img {
+        border-radius: 0.2rem 0.2rem 0rem 0rem;
+        width: 100%;
+      }
+
+      &#home {
+        .profile-picture {
+          border-radius: 50%;
+          width: 8rem;
+          height: 8rem;
+          transform: translateY(-9rem);
+          border: 4px solid white;
+          box-shadow: 0rem 0.1rem 0.2rem $darker-shadow;
+          position: absolute;
+        }
+
+        .card-img {
+          width: 100% !important;
+          height: 10rem;
+          display: block;
+          background-position: top;
+          background-repeat: none;
+          background-size: cover;
+        }
+
+        .body {
+          padding-top: 2rem;
+        }
+      }
+
+      .body {
+        padding: 1rem;
+      }
+    }
+  }
+
+  a.card {
+    text-decoration: none !important;
+    color: black !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content .card.card-post .body {
+    padding: 1.5rem calc(1rem + 2.5%);
+  }
+}
+
+@media screen and (max-width: 848px) {
+  .content .card#home .profile-picture {
+    left: calc(50% - 4rem);
+  }
+
+  .content .card .subtitle {
+    font-size: 1rem;
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+
+  .background-image {
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    width: 3rem;
+    max-height: 3rem;
+    flex: none;
+    margin-left: 1rem;
+  }
+
+  .flex {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 572px) {
+  .flex-container {
+    .backgrund-image {
+      width: 2.4rem;
+      max-height: 3rem;
+      margin-left: 0.5rem;
+    }
+  }
+
+  .space-mobile {
+    height: 1rem;
+    width: 100%;
+    display: block;
+  }
+
+  .app .content {
+    padding-top: 0 !important;
+
+    .card {
+      margin-left: -1rem;
+      margin-right: -1rem;
+      border-radius: 0px;
+
+      .card-img {
+        border-radius: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 848px) {
+  .content .card.card-post {
+    .timestamp {
+      font-size: 0.8rem;
+    }
+
+    .line {
+      margin: 0.75rem 0rem;
+    }
+  }
+}
