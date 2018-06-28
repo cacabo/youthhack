@@ -41,6 +41,8 @@ Website developed in Node with Handlebars, Express, and SCSS. The site leverages
 
 ### Planned features
 - [ ] Favicon
+- [ ] Generic background image, update on template
+- [ ] Sendgrid
 
 ### Completed features
 - [x] Deploy and push to GitHub
