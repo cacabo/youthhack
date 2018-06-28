@@ -1,0 +1,45 @@
+// Constants
+$cyan: #00d0ff;
+$yellow: #fcd702;
+
+// Classes leveraging colors
+.cyan {
+  background: $cyan;
+}
+
+.yellow {
+  background: $yellow;
+}
+
+.black-text {
+  color: black;
+}
+
+.white-text {
+  color: white;
+}
+
+.gradient {
+  animation-duration: 3s;
+  animation-name: changeGradient;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.gradient-2 {
+  background: #00d0ff;
+  background: #fcd702;
+  background: -webkit-linear-gradient(left top, #00d0ff 60%, #fcd702 40%);
+  background: -o-linear-gradient(bottom right, #00d0ff 60%, #fcd702 40%);
+  background: -moz-linear-gradient(bottom right, #00d0ff 60%, #fcd702 40%);
+  background: linear-gradient(to bottom right, #00d0ff 60%, #fcd702 40%);
+}
+
+@keyframes changeGradient {
+  from {
+    background: rgba(0, 255, 255, 0.1);
+  }
+  to {
+    background: rgba(0, 200, 255, 0.3);
+  }
+}

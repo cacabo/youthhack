@@ -1,0 +1,48 @@
+p.header {
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
+p.bigger {
+  font-size: 1.25rem;
+}
+
+h1.bigger {
+  font-size: 3.5rem;
+}
+
+@media (max-width: 848px) {
+  h1.bigger {
+    font-size: 3rem;
+  }
+
+  p.header {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-device-width: 848px) {
+  h1.bigger {
+    font-size: 3rem;
+  }
+
+  p.header {
+    font-size: 1.75rem;
+  }
+}
+
+.code, footer h1, .navbar-brand {
+  font-family: 'code_boldregular', serif;
+}
+
+.special {
+  font-family: 'Palanquin Dark', 'Roboto', sans-serif;
+}
+
+.tight {
+  line-height: 1;
+}
+
+.center {
+  text-align: center;
+}
