@@ -44,6 +44,11 @@ Website developed in Node with Handlebars, Express, and SCSS. The site leverages
 - [ ] Generic background image, update on template
 - [ ] Sendgrid
 - [ ] Custom font
+- [ ] Abstract data to JSON
+- [ ] Fix navbar
+- [ ] Fix spacing (upgrade to newer bootstrap version)
+- [ ] Render active links on homepage
+- [ ] Not found page
 
 ### Completed features
 - [x] Deploy and push to GitHub

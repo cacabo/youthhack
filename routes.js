@@ -17,6 +17,39 @@ const renderNotFound = (res) => {
 router.get('/', (req, res) => {
   res.render('home', {
     title: 'YouthHack',
+    isHomeActive: true,
+  });
+});
+
+// About
+router.get('/about', (req, res) => {
+  res.render('about', {
+    title: 'YouthHack | About',
+    isAboutActive: true,
+  });
+});
+
+// Get involed
+router.get('/get-involved', (req, res) => {
+  res.render('get-involved', {
+    title: 'YouthHack | Get Involved',
+    isGetInvolvedActive: true,
+  });
+});
+
+// Startup school
+router.get('/startup-school', (req, res) => {
+  res.render('startup-school', {
+    title: 'YouthHack | Startup School',
+    isStartupSchoolActive: true,
+  });
+});
+
+// Ventures
+router.get('/ventures', (req, res) => {
+  res.render('ventures', {
+    title: 'YouthHack | Ventures',
+    isVenturesActive: true,
   });
 });
 
