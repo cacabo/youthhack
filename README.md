@@ -49,6 +49,7 @@ Website developed in Node with Handlebars, Express, and SCSS. The site leverages
 - [ ] Fix spacing (upgrade to newer bootstrap version)
 - [ ] Render active links on homepage
 - [ ] Not found page
+- [ ] Fix scroll to top
 
 ### Completed features
 - [x] Deploy and push to GitHub
