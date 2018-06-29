@@ -15,7 +15,17 @@ const renderNotFound = (res) => {
 
 // Homepage
 router.get('/', (req, res) => {
+  console.log('\n\nPROCESS');
+  console.log(process.env);
+
+  const {
+    APPLICATIONS_LINK,
+    VENTURES_LINK
+  } = process.env;
+
   res.render('home', {
+    APPLICATIONS_LINK,
+    VENTURES_LINK,
     title: 'YouthHack',
     isHomeActive: true,
   });
