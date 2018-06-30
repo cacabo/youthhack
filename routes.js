@@ -41,9 +41,16 @@ router.get('/about', (req, res) => {
 
 // Get involed
 router.get('/get-involved', (req, res) => {
+  const {
+    APPLICATIONS_LINK,
+    VENTURES_LINK
+  } = process.env;
+
   res.render('get-involved', {
     title: 'YouthHack | Get Involved',
     isGetInvolvedActive: true,
+    APPLICATIONS_LINK,
+    VENTURES_LINK
   });
 });
 

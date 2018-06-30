@@ -40,16 +40,18 @@ Website developed in Node with Handlebars, Express, and SCSS. The site leverages
 ------
 
 ### Planned features
-- [ ] Favicon
 - [ ] Generic background image, update on template
 - [ ] Sendgrid
-- [ ] Custom font
 - [ ] Abstract data to JSON
-- [ ] Fix navbar
 - [ ] Fix spacing (upgrade to newer bootstrap version)
-- [ ] Render active links on homepage
 - [ ] Not found page
 - [ ] Fix scroll to top
+- [ ] Active links on navbar
+- [ ] About team contact
 
 ### Completed features
 - [x] Deploy and push to GitHub
+- [x] Favicon
+- [x] Fix nav problems
+- [x] Custom font
+- [x] Render active links on homepage
