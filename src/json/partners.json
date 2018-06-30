@@ -1,0 +1,171 @@
+[
+  {
+    "link": "https://entrepreneurship.wharton.upenn.edu/",
+    "image": "whartonentrep.png",
+    "name": "Wharton Entrepreneurship"
+  },
+  {
+    "link": "http://drexel.edu/close/",
+    "image": "drexelentrep.png",
+    "name": "Drexel Entrepreneurship",
+    "darken": true
+  },
+  {
+    "link": "https://www.seventysixcapital.com/",
+    "image": "seventysixcapital.png",
+    "name": "Seventy Six Capital",
+    "darken": true
+  },
+  {
+    "link": "https://www.stitchdata.com/",
+    "image": "stitch.png",
+    "name": "Stitch Data"
+  },
+  {
+    "link": "https://whatsneu.com/",
+    "image": "neu.png",
+    "name": "Neu",
+    "darken": true
+  },
+  {
+    "link": "http://www.dreamit.com/",
+    "image": "dreamit.png",
+    "name": "Dreamit Ventures",
+    "darken": true
+  },
+  {
+    "link": "http://www.redandblue.vc/",
+    "image": "redandblueventures.png",
+    "name": "Red and Blue Ventures",
+    "darken": true
+  },
+  {
+    "link": "https://www.pci.upenn.edu/pciventures/",
+    "image": "pci.png",
+    "name": "PCI Ventures",
+    "darken": true
+  },
+  {
+    "link": "https://myscholly.com/",
+    "image": "scholly.jpeg",
+    "name": "Scholly"
+  },
+  {
+    "link": "https://www.curalate.com/",
+    "image": "curalate.png",
+    "name": "Curalate"
+  },
+  {
+    "link": "https://technical.ly/philly/",
+    "image": "technicallyphilly.png",
+    "name": "Technical.ly Philly",
+    "darken": true
+  },
+  {
+    "link": "http://dormroomfund.com/",
+    "image": "dormroomfund.svg",
+    "name": "Dorm Room Fund"
+  },
+  {
+    "link": "https://benfranklin.org/",
+    "image": "benfranklin.png",
+    "name": "Ben Franklin Technology Partners",
+    "darken": true
+  },
+  {
+    "link": "http://phillystartupleaders.org/",
+    "image": "psl.svg",
+    "name": "Philly Startup Leaders",
+    "darken": true
+  },
+  {
+    "link": "https://nextfab.com/",
+    "image": "nextfab.svg",
+    "name": "NextFab"
+  },
+  {
+    "link": "https://huffingtonpost.com/",
+    "image": "huffpost.svg",
+    "name": "Huffington Post",
+    "short": true,
+    "darken": true
+  },
+  {
+    "link": "http://chopdawg.com/",
+    "image": "chopdawg.svg",
+    "name": "ChopDawg Studios",
+    "tall": true
+  },
+  {
+    "link": "https://www.uber.com/",
+    "image": "uber.png",
+    "name": "Uber Philippines",
+    "short": true
+  },
+  {
+    "link": "https://www.microsoft.com/",
+    "image": "microsoft.png",
+    "name": "Microsoft Philippines",
+    "darken": true
+  },
+  {
+    "link": "http://goldengate.vc/",
+    "image": "goldengate.svg",
+    "name": "Golden Gate Ventures",
+    "short": true,
+    "darken": true
+  },
+  {
+    "link": "http://www.impacthub.net/",
+    "image": "impacthub.png",
+    "name": "Impact Hub",
+    "tall": true
+  },
+  {
+    "link": "http://www.kickstart.ph/",
+    "image": "kickstart.png",
+    "name": "Kickstart Ventures",
+    "tall": true
+  },
+  {
+    "link": "http://www.ideaspacefoundation.org/",
+    "image": "ideaspace.png",
+    "name": "IdeaSpace Foundation",
+    "tall": true,
+    "darken": true
+  },
+  {
+    "link": "http://www.inquirer.net/",
+    "image": "inquirer.svg",
+    "name": "Inquirer Philippines",
+    "short": true
+  },
+  {
+    "link": "http://www.rappler.com/",
+    "image": "rappler.png",
+    "name": "Rappler",
+    "tall": true
+  },
+  {
+    "link": "http://www.informatics.edu.ph/",
+    "image": "informatics.png",
+    "name": "Informatics College"
+  },
+  {
+    "link": "http://gates.edu.ph/",
+    "image": "gates.png",
+    "name": "Gates Professional Schools",
+    "tall": true
+  },
+  {
+    "link": "https://www.techinasia.com/",
+    "image": "techinasia.svg",
+    "name": "Tech in Asia"
+  },
+  {
+    "link": "http://www.launchgarage.com/",
+    "image": "launchgarage.png",
+    "name": "Launch Garage",
+    "taller": true
+  }
+]

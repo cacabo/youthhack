@@ -6,6 +6,7 @@ const router = express.Router();
 // Import data
 const {
   people,
+  partners,
 } = require('./db');
 
 // Set the API key for sendgrid
@@ -20,9 +21,6 @@ const renderNotFound = (res) => {
 
 // Homepage
 router.get('/', (req, res) => {
-  console.log('\n\nPROCESS');
-  console.log(process.env);
-
   const {
     APPLICATIONS_LINK,
     VENTURES_LINK
@@ -33,6 +31,7 @@ router.get('/', (req, res) => {
     VENTURES_LINK,
     title: 'YouthHack',
     isHomeActive: true,
+    partners,
   });
 });
 
