@@ -43,7 +43,6 @@ Website developed in Node with Handlebars, Express, and SCSS. The site leverages
 - [ ] Generic background image, update on template
 - [ ] Sendgrid
 - [ ] Abstract data to JSON
-- [ ] Fix spacing (upgrade to newer bootstrap version)
 - [ ] Not found page
 - [ ] Fix scroll to top
 - [ ] Active links on navbar
@@ -55,3 +54,4 @@ Website developed in Node with Handlebars, Express, and SCSS. The site leverages
 - [x] Fix nav problems
 - [x] Custom font
 - [x] Render active links on homepage
+- [x] Fix spacing (upgrade to newer bootstrap version)

@@ -3,6 +3,11 @@ const express = require('express');
 const router = express.Router();
 // const sgMail = require('@sendgrid/mail');
 
+// Import data
+const {
+  people,
+} = require('./db');
+
 // Set the API key for sendgrid
 // sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
@@ -36,6 +41,7 @@ router.get('/about', (req, res) => {
   res.render('about', {
     title: 'YouthHack | About',
     isAboutActive: true,
+    people,
   });
 });
 

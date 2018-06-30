@@ -1,0 +1,50 @@
+[
+  {
+    "name": "David Ongchoco",
+    "title": "Founder of YouthHack",
+    "email": "david@youthhack.net",
+    "image": "David.jpg"
+  },
+  {
+    "name": "Sanjula Weerawardhena",
+    "title": "Colombo, Sri Lanka",
+    "email": "sanjula@youthhack.net",
+    "image": "Sanjula.jpg"
+  },
+  {
+    "name": "Philippe Bungabong",
+    "title": "Manila, Philippines",
+    "email": "philippe@youthhack.net",
+    "image": "Philippe.jpg"
+  },
+  {
+    "name": "Patricia Evite",
+    "title": "Calabarzon, Philippines",
+    "email": "pevite@youthhack.net",
+    "image": "Tisha.jpg"
+  },
+  {
+    "name": "Jeffrey Gao",
+    "title": "Philadelphia, USA",
+    "email": "jeff@youthhack.net",
+    "image": "Jeff.jpg"
+  },
+  {
+    "name": "Katherine Sizov",
+    "title": "Philadelphia, USA",
+    "email": "katherine@youthhack.net",
+    "image": "Katherine.jpg"
+  },
+  {
+    "name": "Cheewin Kittikunapong",
+    "title": "Bangkok, Thailand",
+    "email": "cheewin@youthhack.net",
+    "image": "Cheewin.jpg"
+  },
+  {
+    "name": "Eshaan Menon",
+    "title": "Kuala Lumpur, Malaysia",
+    "email": "eshaan@youthhack.net",
+    "image": "Eshaan.jpg"
+  }
+]
