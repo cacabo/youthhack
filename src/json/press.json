@@ -1,0 +1,79 @@
+[
+  {
+    "link": "http://www.rappler.com/business/features/97062-youthhack-manila-inspiring-filipino-entrepreneurs",
+    "name": "Rappler",
+    "image": "rappler.png",
+    "title": "Building YouthHack Manila",
+    "subtitle": "How an idealistic college sophomore’s risk taking paid off in inspiring the youth to tackle social problems through technology"
+  },
+  {
+    "link": "https://www.techinasia.com/youthhack-goes-international",
+    "name": "Tech in Asia",
+    "image": "techinasia.svg",
+    "title": "How Philippine entrepreneurship competition YouthHack went global",
+    "subtitle": ""
+  },
+  {
+    "link": "https://beacon.wharton.upenn.edu/entrepreneurship/2015/05/how-youthhack-happened-behind-the-scenes-of-youthhack-philadelphia-shark-tank-challenge-2015/",
+    "name": "Wharton",
+    "image": "wharton.svg",
+    "title": "How YouthHack Happened Behind the Scenes of YouthHack Philadelphia",
+    "subtitle": ""
+  },
+  {
+    "link": "http://www.rappler.com/bulletin-board/64338-young-tecnopreneurs-standout-youthhack-manila-2014",
+    "name": "Rappler",
+    "image": "rappler.png",
+    "title": "Young technopreneurs standout at YouthHack Manila 2014",
+    "subtitle": ""
+  },
+  {
+    "link": "http://lifestyle.inquirer.net/201281/youthhack-marks-first-ever-coding-event/",
+    "name": "Inquirer",
+    "image": "inquirer.svg",
+    "title": "YouthHack marks first-ever coding event",
+    "subtitle": ""
+  },
+  {
+    "link": "http://www.philstar.com/campus/2015/08/17/1489120/youthhacks-journey-manila-global-stage",
+    "name": "PhilStar",
+    "image": "philstar.jpg",
+    "title": "YouthHack’s journey from Manila to the global stage",
+    "subtitle": ""
+  },
+  {
+    "link": "http://lifestyle.inquirer.net/204221/what-i-learned-as-an-intern-at-a-start-up/",
+    "name": "Inquirer",
+    "image": "inquirer.svg",
+    "title": "What I learned as an intern at a start-up",
+    "subtitle": "Tangible impact of the YouthHack Summer Fellowship Program"
+  },
+  {
+    "link": "https://beacon.wharton.upenn.edu/entrepreneurship/2015/11/youthhack-philly-startup-tour/",
+    "name": "Wharton",
+    "image": "wharton.svg",
+    "title": "YouthHack Philly Startup Tour",
+    "subtitle": "Expanding outside Penn to take in Philly's entrepreneurial ecosystem."
+  },
+  {
+    "link": "http://www.thedp.com/article/2017/01/youthhack-philadelphia-supports-student-entrepreneurs",
+    "name": "The Daily Pennsylvanian",
+    "image": "dp.svg",
+    "title": "YouthHack Philadelphia supports student entrepreneurs",
+    "subtitle": ""
+  },
+  {
+    "link": "https://entrepreneurship.wharton.upenn.edu/blog/student-founded-accelerator/",
+    "name": "Wharton Entrepreneurship",
+    "image": "wharton.svg",
+    "title": "A Student Founded Accelerator",
+    "subtitle": "Reflections on the YouthHack Philly Ventures program"
+  },
+  {
+    "link": "http://www.penntechreview.com/youthhack",
+    "name": "Penn Tech Review",
+    "image": "ptr.png",
+    "title": "Igniting the Entrepreneurial Flame at Penn and Beyond - David Ongchoco",
+    "subtitle": ""
+  }
+]

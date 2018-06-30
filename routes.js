@@ -7,6 +7,7 @@ const router = express.Router();
 const {
   people,
   partners,
+  press,
 } = require('./db');
 
 // Set the API key for sendgrid
@@ -32,6 +33,7 @@ router.get('/', (req, res) => {
     title: 'YouthHack',
     isHomeActive: true,
     partners,
+    press,
   });
 });
 
