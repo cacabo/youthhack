@@ -49,6 +49,15 @@ ul.footer-nav {
   margin: 0;
   padding: 0;
   z-index: 6 !important;
+
+  a {
+    text-decoration: none !important;
+    color: white;
+
+    &:hover {
+      color: $cyan;
+    }
+  }
 }
 
 ul.footer-nav li {

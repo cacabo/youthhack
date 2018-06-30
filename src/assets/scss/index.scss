@@ -3,6 +3,7 @@
 @import './form';
 @import './nav';
 @import './fonts';
+@import './progress';
 
 /* Fonts and colors */
 .number {
@@ -23,66 +24,8 @@ p.smaller {
   font-size: 0.8rem;
 }
 
-.cyan-underline {
-  text-decoration: underline;
-  color: #00d0ff;
-}
-
-.gray-diag {
-  background: rgba(0, 0, 0, 0.075);
-  background: -webkit-linear-gradient(-70deg, rgba(0, 0, 0, 0.08) 50%, rgba(0, 0, 0, 0.04) 50%);
-  background: -o-linear-gradient(-70deg, rgba(0, 0, 0, 0.08) 50%, rgba(0, 0, 0, 0.04) 50%);
-  background: -moz-linear-gradient(-70deg, rgba(0, 0, 0, 0.08) 50%, rgba(0, 0, 0, 0.04) 50%);
-  background: linear-gradient(-70deg, rgba(0, 0, 0, 0.08) 50%, rgba(0, 0, 0, 0.04) 50%);
-}
-
-.gray-diag-2 {
-  background: rgba(0, 0, 0, 0.075);
-  background: -webkit-linear-gradient(60deg, rgba(0, 0, 0, 0.04) 50%, rgba(0, 0, 0, 0.08) 50%);
-  background: -o-linear-gradient(60deg, rgba(0, 0, 0, 0.04) 50%, rgba(0, 0, 0, 0.08) 50%);
-  background: -moz-linear-gradient(60deg, rgba(0, 0, 0, 0.04) 50%, rgba(0, 0, 0, 0.08) 50%);
-  background: linear-gradient(60deg, rgba(0, 0, 0, 0.04) 50%, rgba(0, 0, 0, 0.08) 50%);
-}
-
 .center .btn {
   margin: 0.25rem;
-}
-
-.progress {
-  border-radius: 0px;
-  height: 0.25rem;
-  background: $cyan;
-}
-
-.progress.thick {
-  height: 0.5rem;
-}
-
-.progress-bar {
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.cyan-text,
-a.cyan-text,
-.cyan-text:hover {
-  color: $cyan;
-}
-
-.yellow-text {
-  color: $yellow;
-}
-
-.cyan-text-hover:hover, a.cyan-text-hover:hover, a.white-text.cyan-text-hover:hover, .navbar-brand.cyan-text-hover:hover {
-  color: $cyan;
-}
-
-.cyan-text-hover:hover span.yellow-text-hover, a.cyan-text-hover:hover span.yellow-text-hover, a.white-text.cyan-text-hover:hover span.yellow-text-hover {
-  color: $yellow;
-}
-
-.yellow-text-hover:hover, a.yellow-text-hover:hover, a.white-text.yellow-text-hover:hover {
-  color: $yellow;
 }
 
 #video {
