@@ -42,7 +42,6 @@ Website developed in Node with Handlebars, Express, and SCSS. The site leverages
 ### Planned features
 - [ ] Generic background image, update on template
 - [ ] Sendgrid
-- [ ] Abstract data to JSON
 - [ ] Fix scroll to top
 - [ ] About team contact
 
@@ -54,3 +53,4 @@ Website developed in Node with Handlebars, Express, and SCSS. The site leverages
 - [x] Render active links on homepage
 - [x] Not found page
 - [x] Fix spacing (upgrade to newer bootstrap version)
+- [x] Abstract data to JSON
