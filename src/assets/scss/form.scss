@@ -1,13 +1,12 @@
-input, textarea, .form-control {
+input.form-control, textarea.form-control {
   color: black;
   background: transparent;
   z-index: 2 !important;
-}
-
-input.form-control, textarea.form-control {
   border-radius: 0;
   border: 0px solid transparent;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 label {
@@ -20,20 +19,20 @@ label {
   display: inline-block;
   color: #777;
   padding-left: 0.5rem;
-}
 
-label.active {
-  color: #00d0ff !important;
+  &.active {
+    color: #00d0ff !important;
+  }
+
+  &.hasVal {
+    transform: scale(0.9) translateY(-68px);
+    padding-left: 0rem;
+    color: black;
+  }
 }
 
 .form-control.active {
   border-color: #00d0ff !important;
-}
-
-label.hasVal {
-  transform: scale(0.9) translateY(-68px);
-  padding-left: 0rem;
-  color: black;
 }
 
 label#messageLabel {
@@ -45,12 +44,12 @@ label#messageLabel {
   display: inline-block;
   color: #777;
   padding-left: 0.5rem;
-}
 
-label#messageLabel.hasVal {
-  transform: scale(0.9) translateY(-32px);
-  padding-left: 0rem;
-  color: black;
+  &.hasVal {
+    transform: scale(0.9) translateY(-32px);
+    padding-left: 0rem;
+    color: black;
+  }
 }
 
 .btn.special {
@@ -59,13 +58,18 @@ label#messageLabel.hasVal {
   border: 2px solid black;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-}
 
-.btn.special:hover {
-  background: black;
-  color: white;
+  &:hover {
+    background: black;
+    color: white;
+  }
 }
 
 #inputMessage {
   overflow: hidden;
+}
+
+.alert {
+  border-radius: 0 !important;
+  border-width: 2px !important;
 }
