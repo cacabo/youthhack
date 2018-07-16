@@ -139,9 +139,6 @@ router.post('/contact', (req, res) => {
     html,
   };
 
-  console.log('\n\n\nSENDING');
-  console.log(msg);
-
   // Send the message
   sgMail.send(msg)
     .then(() => res.send({ success: true }))
