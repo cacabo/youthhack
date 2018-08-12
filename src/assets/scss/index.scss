@@ -5,6 +5,29 @@
 @import './fonts';
 @import './progress';
 @import './carousel';
+@import './internal';
+
+.full-height {
+  min-height: calc(100vh - 57px);
+}
+
+.section {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .section {
+    padding: 2rem 1rem;
+  }
+}
+
+.shade-card {
+  padding: 1rem;
+  border-radius: 0.2rem;
+  background: white;
+  box-shadow: 0rem 0.05rem 0.4rem rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 /* Fonts and colors */
 .number {

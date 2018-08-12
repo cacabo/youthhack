@@ -37,6 +37,14 @@ router.get('/', (req, res) => {
   });
 });
 
+// Internal
+router.get('/internal', (req, res) => {
+  res.render('internal/home', {
+    title: 'YouthHack | Internal',
+    description: 'Documentation to streamline, inform, and connect certain YouthHack processes'
+  });
+});
+
 // About
 router.get('/about', (req, res) => {
   res.render('about', {

@@ -1,0 +1,17 @@
+.internal {
+  h4 {
+    font-family: $special;
+    margin-top: 2rem;
+  }
+
+  .note {
+    color: $light-gray;
+    font-style: italic;
+  }
+
+  .shade-card {
+    h4 {
+      margin-top: 0;
+    }
+  }
+}

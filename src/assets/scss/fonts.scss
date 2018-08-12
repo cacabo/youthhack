@@ -1,3 +1,5 @@
+$special: 'Palanquin Dark', 'Roboto', sans-serif;
+
 p.header {
   font-size: 2rem;
   line-height: 1.15;
@@ -36,7 +38,7 @@ h1.bigger {
 }
 
 .special {
-  font-family: 'Palanquin Dark', 'Roboto', sans-serif;
+  font-family: $special;
 }
 
 .tight {
