@@ -82,7 +82,7 @@ router.post('/contact', (req, res) => {
   // Ensure environment variables are in place
   let error = '';
 
-  if (!process.env.EMAIL) error = 'EMAIL not found';
+  if (!process.env.EMAILS) error = 'EMAILS not found';
   else if (!process.env.SENDGRID_API_KEY) error = 'SENDGRID_API_KEY not found';
   if (error) {
     res.send({
@@ -128,26 +128,39 @@ router.post('/contact', (req, res) => {
   }
 
   const text = `Name: ${name}\nOrganization: ${organization}\nLocation: ${location}\n\n${message}`;
-  const html = `<p><strong>Name: ${name}</strong></p><p><strong>Organiation:</strong> ${organization}</p><p><strong>Location:</strong> ${location}</p><br><p>${message}</p>`;
+  const html = `<p><strong>Name:</strong> ${name}</p><p><strong>Organiation:</strong> ${organization}</p><p><strong>Location:</strong> ${location}</p><br><p>${message}</p>`;
 
   // Construct the message
-  const msg = {
-    to: process.env.EMAIL,
+  const baseMsg = {
     from: email,
     subject,
     text,
     html,
   };
 
-  // Send the message
-  sgMail.send(msg)
-    .then(() => res.send({ success: true }))
-    .catch(sendgridError => {
-      res.send({
-        success: false,
-        error: sendgridError.message
+  const recipients = process.env.EMAILS.split(',');
+  const awaitEmails = recipients.map(recipient => {
+    const msg = Object.assign(baseMsg, { to: recipient });
+
+    return sgMail.send(msg)
+      .then(() => ({ success: true }))
+      .catch(sendgridError => {
+        ({ success: false, error: sendgridError.message });
       });
-    });
+  });
+
+  Promise.all(awaitEmails).then(results => {
+    let i;
+
+    for (i = 0; i < results.length; i++) {
+      if (!results[i].success) {
+        res.send(results[i]);
+        return;
+      }
+    }
+
+    res.send(results[0]);
+  });
 });
 
 // Handle 404 error
