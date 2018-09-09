@@ -3,6 +3,7 @@ const {
   EMAILS,
   VENTURES_LINK,
   APPLICATIONS_LINK,
+  NODE_APP_INSTANCE,
 } = process.env;
 
 console.log('ENV SETUP', {
@@ -10,6 +11,7 @@ console.log('ENV SETUP', {
   EMAILS,
   VENTURES_LINK,
   APPLICATIONS_LINK,
+  NODE_APP_INSTANCE,
 });
 
 module.exports = {
