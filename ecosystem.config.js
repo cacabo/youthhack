@@ -10,6 +10,14 @@ module.exports = {
     name: 'youthhack',
     script: './index.js',
     env: {
+      NODE_ENV: 'development',
+      SENDGRID_API_KEY,
+      EMAILS,
+      VENTURES_LINK,
+      APPLICATIONS_LINK,
+    },
+    env_production: {
+      NODE_ENV: 'production',
       SENDGRID_API_KEY,
       EMAILS,
       VENTURES_LINK,
