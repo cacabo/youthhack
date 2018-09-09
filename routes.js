@@ -136,7 +136,7 @@ router.post('/contact', (req, res) => {
   }
 
   const text = `Name: ${name}\nOrganization: ${organization}\nLocation: ${location}\n\n${message}`;
-  const html = `<p><strong>Name:</strong> ${name}</p><p><strong>Organiation:</strong> ${organization}</p><p><strong>Location:</strong> ${location}</p><br><p>${message}</p>`;
+  const html = `<p><strong>Name:</strong> ${name}</p><p><strong>Organization:</strong> ${organization}</p><p><strong>Location:</strong> ${location}</p><br><p>${message}</p>`;
 
   // Construct the message
   const baseMsg = {

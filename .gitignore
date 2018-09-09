@@ -3,3 +3,4 @@ env
 .env
 env.sh
 .DS_STORE
+*.pem
