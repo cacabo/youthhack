@@ -5,6 +5,13 @@ const {
   APPLICATIONS_LINK,
 } = process.env;
 
+console.log('ENV SETUP', {
+  SENDGRID_API_KEY,
+  EMAILS,
+  VENTURES_LINK,
+  APPLICATIONS_LINK,
+});
+
 module.exports = {
   apps: [{
     name: 'youthhack',
