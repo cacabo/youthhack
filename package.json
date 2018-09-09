@@ -23,7 +23,7 @@
     "build": "node index.js",
     "test": "node index.js --env=jsdom",
     "restart": "pm2 startOrRestart ecosystem.config.js",
-    "deploy": "pm2 deploy ecosystem.config.js production"
+    "deploy": "source env.sh && pm2 deploy ecosystem.config.js production"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

@@ -1,7 +1,20 @@
+const {
+  SENDGRID_API_KEY,
+  EMAILS,
+  VENTURES_LINK,
+  APPLICATIONS_LINK,
+} = process.env;
+
 module.exports = {
   apps: [{
     name: 'youthhack',
-    script: './index.js'
+    script: './index.js',
+    env: {
+      SENDGRID_API_KEY,
+      EMAILS,
+      VENTURES_LINK,
+      APPLICATIONS_LINK,
+    },
   }],
   deploy: {
     production: {
