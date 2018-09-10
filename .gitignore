@@ -4,3 +4,4 @@ env
 env.sh
 .DS_STORE
 *.pem
+.ec2
